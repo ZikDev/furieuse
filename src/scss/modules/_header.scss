@@ -1,0 +1,23 @@
+.header-background {
+  max-height: 100vh;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.header-content {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  width: 80svw;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}

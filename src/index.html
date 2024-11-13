@@ -4,32 +4,39 @@
     <meta charset="utf-8" />
     <title>eikon parcel starter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.cdnfonts.com/css/creato-display"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <header>
-      <h1>
-        <img src="img/logo-furieuse.svg" alt="" />
-      </h1>
-      <nav class="nav-header">
-        <a href="https://www.dargaud.com" class="button button-regular">
-          <p>Editeur</p>
-        </a>
-        <a href="#storytelling" class="button button-big">
-          <p>Commencer l’Aventure !</p>
-        </a>
-        <a href="#shop" class="button button-regular">
-          <p>Shop</p>
-        </a>
-      </nav>
-      <div class="title-background">
+    <header class="l-header">
+      <div class="header-background">
         <img src="img/titre/titre-plan_1.png" alt="" class="panel panel1" />
         <img src="img/titre/titre-plan_2.png" alt="" class="panel panel2" />
         <img src="img/titre/titre-plan_3.png" alt="" class="panel panel3" />
         <img src="img/titre/titre-plan_4.png" alt="" class="panel panel4" />
       </div>
+      <div class="header-content">
+        <h1>
+          <img src="img/logo-furieuse.svg" alt="" class="header-logo" />
+        </h1>
+        <nav class="nav-header">
+          <a href="https://www.dargaud.com" class="button button-regular">
+            <p>Editeur</p>
+          </a>
+          <a href="#storytelling" class="button button-big">
+            <p>Commencer l’Aventure !</p>
+          </a>
+          <a href="#shop" class="button button-regular">
+            <p>Shop</p>
+          </a>
+        </nav>
+      </div>
     </header>
-    <div class="storytelling" id="storytelling">
+    <div class="storytelling l-storytelling" id="storytelling">
       <div class="scene scene1">
         <img src="img/scene_1/scene_1-plan_1.png" alt="" class="panel panel1" />
         <img src="img/scene_1/scene_1-plan_2.png" alt="" class="panel panel2" />
@@ -91,7 +98,7 @@
         <img src="img/scene_9/scene_9-plan_5.png" alt="" class="panel panel5" />
       </div>
     </div>
-    <div class="shop" id="shop">
+    <div class="shop l-shop" id="shop">
       <img src="img/mockup.webp" alt="" class="mockup" />
       <div class="shop-info">
         <img src="img/logo-furieuse.svg" alt="" class="logo-furieuse" />
@@ -135,7 +142,7 @@
         </div>
         <a
           href="https://www.dargaud.com/bd/furieuse-bda5430320"
-          class="button button-shop"
+          class="button button-regular"
         >
           <p>Acheter le livre</p>
         </a>
