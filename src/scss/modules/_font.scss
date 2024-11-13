@@ -4,7 +4,9 @@
   font-style: normal;
   font-weight: 700;
   line-height: 150%; /* 27px */
+  text-decoration: none;
   letter-spacing: -0.198px;
+  color: var(--White, #fff);
 }
 
 .font-button-big {
@@ -13,7 +15,9 @@
   font-style: normal;
   font-weight: 800;
   line-height: 150%; /* 36px */
+  text-decoration: none;
   letter-spacing: -0.264px;
+  color: var(--contrast, #fde174);
 }
 
 .font-button-newsletter {
@@ -22,6 +26,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  text-decoration: none;
+  color: var(--White, #fff);
 }
 
 .font-link-off {
@@ -30,7 +36,9 @@
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  text-decoration: none;
   text-transform: capitalize;
+  color: var(--White, #fff);
 }
 
 .font-link-on {
@@ -39,7 +47,9 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  text-decoration: none;
   text-transform: capitalize;
+  color: var(--White, #fff);
 }
 
 .font-link-off:hover {
@@ -50,6 +60,7 @@
   line-height: normal;
   text-decoration: underline;
   text-transform: capitalize;
+  color: var(--White, #fff);
 }
 
 .font-text {
@@ -58,7 +69,9 @@
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 27px */
+  text-decoration: none;
   letter-spacing: -0.198px;
+  color: var(--White, #fff);
 }
 
 .font-copyright {
@@ -67,7 +80,9 @@
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 21px */
+  text-decoration: none;
   letter-spacing: -0.154px;
+  color: var(--White, #fff);
 }
 
 .font-newsletter-title {
@@ -76,5 +91,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  text-decoration: none;
   text-transform: capitalize;
+  color: var(--White, #fff);
 }

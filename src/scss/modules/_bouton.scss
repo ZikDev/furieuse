@@ -10,6 +10,10 @@
   border: 2px solid var(--White, #fff);
 }
 
+.button-regular:hover {
+  border-width: 3px;
+}
+
 .button-big {
   height: 56px;
   padding: 7px 48px;
@@ -17,9 +21,17 @@
   border: 3px solid var(--contrast, #fde174);
 }
 
+.button-big:hover {
+  border-width: 4px;
+}
+
 .button-newsletter {
   height: 32px;
   padding: 7px 24px;
   border-radius: 80px;
   border: 1px solid var(--White, #fff);
+}
+
+.button-newsletter:hover {
+  border-width: 2px;
 }
