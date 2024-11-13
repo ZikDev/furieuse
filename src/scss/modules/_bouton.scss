@@ -5,7 +5,7 @@
 
 .button-regular {
   height: 40px;
-  padding: 7px 32px;
+  padding: 0 32px;
   border-radius: 80px;
   border: 2px solid var(--White, #fff);
 }
@@ -16,7 +16,7 @@
 
 .button-big {
   height: 56px;
-  padding: 7px 48px;
+  padding: 0 48px;
   border-radius: 80px;
   border: 3px solid var(--contrast, #fde174);
 }
@@ -27,7 +27,7 @@
 
 .button-newsletter {
   height: 32px;
-  padding: 7px 24px;
+  padding: 0 24px;
   border-radius: 80px;
   border: 1px solid var(--White, #fff);
 }

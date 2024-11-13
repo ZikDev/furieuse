@@ -1,7 +1,7 @@
 .header-background {
   max-height: 100vh;
   max-width: 100%;
-  position: absolute;
+  position: relative;
   top: -30;
 }
 
@@ -17,7 +17,7 @@
 
 .header-logo {
   width: 80svw;
-  margin-top: 8vh;
+  margin-top: 5vh;
   display: flex;
   justify-content: center;
 }

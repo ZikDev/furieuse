@@ -1,4 +1,25 @@
 .panel {
-  width: 100svw;
   position: absolute;
+}
+
+.scene2 .panel,
+.scene4 .panel,
+.scene5 .panel,
+.scene8 .panel,
+.scene9 .panel {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.header-background .panel,
+.scene1 .panel,
+.scene3 .panel,
+.scene6 .panel {
+  width: 100%;
+}
+
+.scene7 .panel {
+  height: 100vh;
+  right: 0;
 }
