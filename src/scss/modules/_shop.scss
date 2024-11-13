@@ -1,30 +1,38 @@
-.shop {
+.shop-background {
   height: 100vh;
-  max-width: 100%;
+  position: absolute;
+}
+
+.shop {
   position: absolute;
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
+  height: 100vh;
+  width: 100%;
   align-items: center;
-  gap: 15svw;
+  padding: 0 2%;
+  gap: 12%;
 }
 
 .shop-mockup {
-  height: 700px;
-  transform: rotate(-15deg);
+  height: 600px;
+  rotate: 10deg;
 }
 
 .shop-info {
   display: flex;
+  width: 45svw;
   flex-direction: column;
-  justify-content: space-between;
   align-items: flex-start;
-  gap: 4vh;
+  gap: 8vh;
+}
+
+.shop-logo {
+  width: 450.532px;
+  height: 144px;
 }
 
 .shop-text {
   display: flex;
-  width: 40svw;
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
@@ -32,14 +40,4 @@
 
 .shop-hide {
   display: none;
-}
-
-.shop-background {
-  height: 100%;
-  position: absolute;
-}
-
-.shop-logo {
-  width: 450.532px;
-  height: 144px;
 }
