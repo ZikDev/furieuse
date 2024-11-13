@@ -1,8 +1,12 @@
 * {
-  margin: 0;
-  padding: 0;
   --White: #ffff;
   --grey: #c9c8c8;
   --black: #000;
   --contrast: #fde174;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }

@@ -26,8 +26,11 @@
 }
 
 .button-newsletter {
+  display: flex;
   height: 32px;
   padding: 0 24px;
+  align-items: center;
+  gap: 10px;
   border-radius: 80px;
   border: 1px solid var(--White, #fff);
 }
