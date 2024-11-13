@@ -1,0 +1,47 @@
+.shop {
+  height: 100vh;
+  max-height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15svw;
+}
+
+.shop-mockup {
+  height: 700px;
+  transform: rotate(-15deg);
+}
+
+.shop-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 4vh;
+}
+
+.shop-text {
+  display: flex;
+  width: 40svw;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.shop-hide {
+  display: none;
+}
+
+.shop-background {
+  height: 100%;
+  position: absolute;
+}
+
+.shop-logo {
+  width: 450.532px;
+  height: 144px;
+}
