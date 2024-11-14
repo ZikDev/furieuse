@@ -4,6 +4,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
+// Header
+
 const tlHeader = gsap.timeline({
   scrollTrigger: {
     trigger: ".l-header",
@@ -47,6 +49,8 @@ tlHeader.to(
   },
   1
 );
+
+// Storytelling
 
 const scene1 = gsap.timeline();
 scene1
@@ -148,3 +152,35 @@ ScrollTrigger.create({
   pin: true,
   anticipatePin: 1,
 });
+
+// Shop
+
+const resume = document.querySelector(".shop-onglet-resume");
+const createur = document.querySelector(".shop-onglet-createurs");
+const textResume = document.querySelector(".shop-paragraphe-resume");
+const texteCreateur = document.querySelector(".shop-paragraphe-createurs");
+
+function verifierCondition() {
+  if (resume.classList.contains("font-link-on")) {
+    createur.addEventListener("click", function () {
+      texteCreateur.classList.toggle("shop-hide"),
+        textResume.classList.toggle("shop-hide"),
+        createur.classList.toggle("font-link-on"),
+        resume.classList.toggle("font-link-on"),
+        createur.classList.toggle("font-link-off"),
+        resume.classList.toggle("font-link-off");
+    });
+  } else {
+    resume.addEventListener("click", function () {
+      texteCreateur.classList.toggle("shop-hide"),
+        textResume.classList.toggle("shop-hide"),
+        createur.classList.toggle("font-link-on"),
+        resume.classList.toggle("font-link-on"),
+        createur.classList.toggle("font-link-off"),
+        resume.classList.toggle("font-link-off");
+    });
+  }
+  setTimeout(verifierCondition, 100);
+}
+
+verifierCondition();
