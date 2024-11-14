@@ -184,3 +184,5 @@ function verifierCondition() {
 }
 
 verifierCondition();
+
+// Loading screen
