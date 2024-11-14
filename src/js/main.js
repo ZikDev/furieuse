@@ -180,7 +180,7 @@ function verifierCondition() {
         resume.classList.toggle("font-link-off");
     });
   }
-  setTimeout(verifierCondition, 100);
+  setTimeout(verifierCondition, 500);
 }
 
 verifierCondition();
