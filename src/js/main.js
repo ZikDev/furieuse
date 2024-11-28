@@ -186,3 +186,13 @@ function verifierCondition() {
 verifierCondition();
 
 // Loading screen
+
+const loading = document.querySelector(".loading");
+const content = document.querySelector(".content");
+
+document.body.style.overflow = "hidden";
+
+window.addEventListener("load", function () {
+  loading.classList.add("loading-hide");
+  document.body.style.overflow = "auto";
+});

@@ -1,0 +1,46 @@
+.loading {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  background-color: var(--black, #000);
+}
+
+.loading-hide {
+  display: none;
+}
+
+.loading-img {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.loading img {
+  height: 800px;
+  width: 800px;
+}
+
+.loading p {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
