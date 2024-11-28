@@ -5,6 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 // Header
+// Introduction du site avec un effet de parallax
 
 const tlHeader = gsap.timeline({
   scrollTrigger: {
@@ -51,6 +52,7 @@ tlHeader.to(
 );
 
 // Storytelling
+// Scrolling horizontal
 
 const scene1 = gsap.timeline();
 scene1
@@ -154,6 +156,7 @@ ScrollTrigger.create({
 });
 
 // Shop
+// Change le texte du shop en fontion de l'onglet cliqué
 
 const resume = document.querySelector(".shop-onglet-resume");
 const createur = document.querySelector(".shop-onglet-createurs");
@@ -186,6 +189,7 @@ function verifierCondition() {
 verifierCondition();
 
 // Loading screen
+// Le temps que les images chargent
 
 const loading = document.querySelector(".loading");
 const content = document.querySelector(".content");
